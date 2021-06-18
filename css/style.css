@@ -6,32 +6,28 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
-
 .container{
     position: relative;
 }
-
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s;
 }
 .dark{
     background-color: black;
 }
-
 .sun, .moon{
     font-size: 10rem;
     width: fit-content;
     height: fit-content;
 }
-
 .moon{
     position: absolute;
     inset: 0;
 }
-
 .moon-logo{
     opacity: 0;
     transform: translateY(20%) rotateZ(50deg);
@@ -45,6 +41,7 @@ body{
 .animate-sun{
     opacity: 0;
     transform: translateY(20%) rotateZ(100deg);
+    color: aliceblue;
 }
 .animate-moon{
     opacity: 1;
