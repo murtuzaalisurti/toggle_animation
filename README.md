@@ -1,3 +1,3 @@
 # Dark mode toggle button animation using CSS!
 
-<img src="assets/1ShSIFWXfB.gif" width="500">
+<img src="assets/bp990VEYi5.gif" width="500">
